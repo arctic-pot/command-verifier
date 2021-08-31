@@ -1,0 +1,35 @@
+{
+  "name": "@datapack-planet/command-verifier",
+  "private": false,
+  "version": "0.0.1",
+  "description": "A powerful function set of parse and verifing Minecraft commands",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:check": "prettier -c ./src/*.ts",
+    "format": "prettier -w ./src/*.ts",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datapack-planet/command-verifier.git"
+  },
+  "author": "The DataPack Planet team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datapack-planet/command-verifier/issues"
+  },
+  "homepage": "https://github.com/datapack-planet/command-verifier#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}

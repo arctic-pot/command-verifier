@@ -1,3 +1,3 @@
-export function parser(selector: string) {
+export function parse(selector: string) {
 
 }

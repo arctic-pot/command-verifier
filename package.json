@@ -5,7 +5,7 @@
   "description": "A powerful function set of parse and verifing Minecraft commands",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ts-mocha -p ./tsconfig.json **/*.test.ts",
     "format:check": "prettier -c ./src/*.ts",
     "format": "prettier -w ./src/*.ts",
     "lint": "eslint"
@@ -32,6 +32,7 @@
     "mocha": "^9.1.1",
     "prettier": "^2.3.2",
     "ts-loader": "^9.2.5",
+    "ts-mocha": "^8.0.0",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.2",
     "webpack": "^5.51.1",
